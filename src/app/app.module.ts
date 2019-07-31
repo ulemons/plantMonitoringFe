@@ -4,19 +4,20 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
-import { GrapghicsComponent } from './grapghics/grapghics.component';
+import { ChartsModule } from 'ng2-charts';
+
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    GrapghicsComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ChartsModule
   ],
   providers: [],
-  bootstrap: [GrapghicsComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

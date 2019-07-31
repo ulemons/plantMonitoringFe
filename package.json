@@ -10,7 +10,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ng build --aot -prod"
-
   },
   "private": true,
   "dependencies": {
@@ -25,8 +24,12 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "angular-chart.js": "^1.1.1",
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.8.0",
     "core-js": "^2.4.1",
     "express": "^4.17.1",
+    "ng2-charts": "^2.3.0",
     "path": "^0.12.7",
     "rxjs": "^5.5.6",
     "typescript": "~2.5.3",
